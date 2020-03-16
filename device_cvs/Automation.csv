@@ -1,0 +1,28 @@
+Equipment IP and Version Information,,,,,,,,
+
+Theater ID,Theater Name,Auditorium Number,Equipment Category,Manufacturer,Model,Management IP Address,Firmware Version,Software Version,Content IP Address,port,TmsIP,UserName,PassWord
+
+216,sw-centos6,1,Media Block,Emulator,,127.0.0.1,,,,9001,172.22.1.216,aam_admin,cofeye11
+216,sw-centos6,2,Media Block,Emulator,,127.0.0.1,,,,9002,,,
+216,sw-centos6,3,Media Block,Emulator,,127.0.0.1,,,,9003,,,
+216,sw-centos6,4,Media Block,Emulator,,127.0.0.1,,,,9004,,,
+216,sw-centos6,5,Media Block,Emulator,,127.0.0.1,,,,9005,,,
+216,sw-centos6,6,Media Block,Emulator,,127.0.0.1,,,,9006,,,
+216,sw-centos6,7,Media Block,Emulator,,127.0.0.1,,,,9007,,,
+216,sw-centos6,8,Media Block,Emulator,,127.0.0.1,,,,9008,,,
+216,sw-centos6,9,Media Block,Emulator,,127.0.0.1,,,,9009,,,
+216,sw-centos6,10,Media Block,Emulator,,127.0.0.1,,,,9010,,,
+216,sw-centos6,11,Media Block,Emulator,,127.0.0.1,,,,9011,,,
+216,sw-centos6,12,Media Block,Emulator,,127.0.0.1,,,,9012,,,
+216,sw-centos6,13,Media Block,Emulator,,127.0.0.1,,,,9013,,,
+216,sw-centos6,14,Media Block,Emulator,,127.0.0.1,,,,9014,,,
+216,sw-centos6,15,Media Block,Emulator,,127.0.0.1,,,,9015,,,
+216,sw-centos6,16,Media Block,Emulator,,127.0.0.1,,,,9016,,,
+216,sw-centos6,17,Media Block,Emulator,,127.0.0.1,,,,9017,,,
+216,sw-centos6,18,Media Block,Emulator,,127.0.0.1,,,,9018,,,
+216,sw-centos6,19,Media Block,Emulator,,127.0.0.1,,,,9019,,,
+216,sw-centos6,20,Media Block,Emulator,,127.0.0.1,,,,9020,,,
+216,sw-centos6,21,Media Block,Emulator,,127.0.0.1,,,,9021,,,
+216,sw-centos6,22,Media Block,Emulator,,127.0.0.1,,,,9022,,,
+216,sw-centos6,23,Media Block,Emulator,,127.0.0.1,,,,9023,,,
+216,sw-centos6,24,Media Block,Emulator,,127.0.0.1,,,,9024,,,
