@@ -22,7 +22,9 @@ def query_pos():
     result = cursor.fetchone()
     pos_uuid = result[0]
     screen = result[1]
-    screen1 = screen.replace('0', '')
+    for k, i in  enumerate(screen):
+        if i != '0':
+            _screen = screen[k:]
 
     source_start = result[2]
     start = str(source_start)
@@ -31,13 +33,12 @@ def query_pos():
 
     with open(root.get_root_path() + '/output/pos_info.txt', 'w') as f:
         f.write(pos_uuid + '\n')
-        f.write(screen1 + '\n')
+        f.write(_screen + '\n')
         f.write(start + '\n')
         f.write(feature_id + '\n')
 
     connent.commit()
     connent.close()
-
 
 
 
