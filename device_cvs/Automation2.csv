@@ -1,9 +1,0 @@
-Equipment IP and Version Information,,,,,,,,
-
-Theater ID,Theater Name,Equipment Category,Manufacturer,Management IP Address,Firmware Version,Software Version,Content IP Address,TmsIP,UserName,PassWord
-
-108,Knoxville Center 10,Pos,Finixx,http://172.22.1.107:29957/TService.asmx,15.1.52,1.4.82,192.168.100.1,172.22.1.202,aamadmin,cofeye11
-
-
-
-

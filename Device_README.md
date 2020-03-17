@@ -4,8 +4,7 @@
 - pandas
 
 ## 代码拉取
-- git clone git@gitlab.aamcn.com.cn:aam/verifier.git
-- git checkout sw_auto_init_amc
+- git clone git@github.com:test-chenweiji/test-advis.git
 
 ## 运行
 - 在main.py里的InitRunner().multi_run设置需要读取的cvs文件路径(相对于项目根路径)
