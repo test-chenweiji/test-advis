@@ -2,7 +2,8 @@
 文件为可执行文件，无需环境
 
 ## 代码拉取
-- git clone git@github.com:test-chenweiji/test-advis.git
+- git clone git@gitlab.aamcn.com.cn:aam/verifier.git
+- git checkout sw_auto_init_new
 
 ## 运行
 - 如果需要导入device_cvs，请将导入的文件名改为Automation.csv

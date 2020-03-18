@@ -2,7 +2,7 @@ Equipment IP and Version Information,,,,,,,,
 
 Theater ID,Theater Name,Auditorium Number,Equipment Category,Manufacturer,Model,Management IP Address,Firmware Version,Software Version,Content IP Address,port,TmsIP,UserName,PassWord
 
-216,sw-centos6,1,Media Block,Emulator,,127.0.0.1,,,,9001,172.22.1.216,aam_admin,cofeye11
+216,sw-centos6,1,Media Block,Emulator,,127.0.0.1,,,,9001,127.0.0.1,aam_admin,cofeye11
 216,sw-centos6,2,Media Block,Emulator,,127.0.0.1,,,,9002,,,
 216,sw-centos6,3,Media Block,Emulator,,127.0.0.1,,,,9003,,,
 216,sw-centos6,4,Media Block,Emulator,,127.0.0.1,,,,9004,,,

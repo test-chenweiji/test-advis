@@ -63,10 +63,28 @@ class InitRunner(object):
         CreatePlaylist(server_url).execute()
         #playlist匹配POS场次
         PosMapping(server_url).execute()
+
+        #获取POS
+        f = open(root.get_root_path() + "/output/pos_info.txt", "r")
+        datalist = f.readlines()[1:2]
+        screen = datalist[0][:36]
+        screen1 = screen.replace('\n', '')
+
+        f1 = open(root.get_root_path() + "/output/pos_info.txt", "r")
+        datalist2 = f1.readlines()[2:3]
+        start = datalist2[0][:36]
+        start1 = start.replace('\n', '')
+
+        f2 = open(root.get_root_path() + "/output/pos_info.txt", "r")
+        datalist3 = f2.readlines()[4:5]
+        feature_title = datalist3[0][:36]
+        feature_title1 = feature_title.replace('\n', '')
+
         #排期同步
         ScheduleSync(server_url).execute()
+        print ("下发pack且排期同步后，期望结果：\n"+ screen1 + "号厅" + feature_title1 +'影片在'+ start1 + "场次应添加对应占位符匹配的内容包CPL")
         time.sleep(30)
-        print ("下发pack且排期同步后，校验排期：")
+        print ("排期同步完成校验排期，实际结果：")
         performance()
 
         time.sleep(30)
@@ -76,8 +94,9 @@ class InitRunner(object):
         delete_pack2()
         # 排期同步
         ScheduleSync(server_url).execute()
+        print ("删除pack且排期同步后，期望结果：\n" + screen1 + "号厅" + feature_title1 + '影片在' + start1 + "场次找不到对应占位符匹配的内容包")
         time.sleep(30)
-        print ("删除pack且排期同步后，校验排期：")
+        print ("排期同步完成校验排期，实际结果：")
         performance()
         time.sleep(30)
 
@@ -86,8 +105,9 @@ class InitRunner(object):
         pack_ncm2()
         # 排期同步
         ScheduleSync(server_url).execute()
+        print ("修改pack且排期同步后，期望结果：\n" + screen1 + "号厅" + feature_title1 + '影片在' + start1 + "场次应添加对应占位符匹配的内容包CPL")
         time.sleep(30)
-        print ("修改pack且排期同步后，校验排期：")
+        print ("排期同步完成校验排期，实际结果：")
         performance()
 
         time.sleep(30)
@@ -97,8 +117,9 @@ class InitRunner(object):
         delete_pack2()
         # 排期同步
         ScheduleSync(server_url).execute()
+        print ("删除pack且排期同步后，期望结果：\n" + screen1 + "号厅" + feature_title1 + '影片在' + start1 + "场次找不到对应占位符匹配的内容包")
         time.sleep(30)
-        print ("删除pack且排期同步后，校验排期：")
+        print ("排期同步完成校验排期，实际结果：")
         performance()
 
 if __name__ == '__main__':
