@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/project/operation/impl/get_pos_info.py" line="48" />
+    <bookmark url="file://$PROJECT_DIR$/project/operation/impl/get_pos_info.py" line="51" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecc4c457-977f-4fce-8091-61b27eac0cf4" name="Default Changelist" comment="" />
@@ -13,11 +13,12 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/verifier_sw_auto_init_new$send_pack.coverage" NAME="send_pack Coverage Results" MODIFIED="1584344704253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/operation/impl" />
-    <SUITE FILE_PATH="coverage/verifier_sw_auto_init_new$main.coverage" NAME="main Coverage Results" MODIFIED="1584549512875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/verifier_sw_auto_init_new$main.coverage" NAME="main Coverage Results" MODIFIED="1584636935390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/verifier_sw_auto_init_new$delete_pack2.coverage" NAME="delete_pack2 Coverage Results" MODIFIED="1584346513553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/operation/impl" />
-    <SUITE FILE_PATH="coverage/verifier_sw_auto_init_new$performance_datetime.coverage" NAME="performance_datetime Coverage Results" MODIFIED="1584548840596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/operation/impl" />
+    <SUITE FILE_PATH="coverage/verifier_sw_auto_init_new$performance_datetime.coverage" NAME="performance_datetime Coverage Results" MODIFIED="1584628595297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/operation/impl" />
     <SUITE FILE_PATH="coverage/verifier_sw_auto_init_new$creat_playlist.coverage" NAME="creat_playlist Coverage Results" MODIFIED="1584010012519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/operation/impl" />
     <SUITE FILE_PATH="coverage/verifier_sw_auto_init_new$query_pack.coverage" NAME="query_pack Coverage Results" MODIFIED="1584345008337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/operation/impl" />
+    <SUITE FILE_PATH="coverage/verifier_sw_auto_init_new$schedule_validate.coverage" NAME="schedule_validate Coverage Results" MODIFIED="1584628542772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/operation/impl" />
     <SUITE FILE_PATH="coverage/verifier_sw_auto_init_new$get_placeholder_uuid.coverage" NAME="get_placeholder_uuid Coverage Results" MODIFIED="1583993426298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/operation/impl" />
     <SUITE FILE_PATH="coverage/verifier_sw_auto_init_new$send_pack2.coverage" NAME="send_pack2 Coverage Results" MODIFIED="1584346501290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/operation/impl" />
     <SUITE FILE_PATH="coverage/verifier_sw_auto_init_new$send_pack_screenvision1.coverage" NAME="send_pack_screenvision1 Coverage Results" MODIFIED="1584372653127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/operation/impl" />
@@ -25,7 +26,7 @@
     <SUITE FILE_PATH="coverage/verifier_sw_auto_init_new$delete_pack.coverage" NAME="delete_pack Coverage Results" MODIFIED="1584345103637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/operation/impl" />
     <SUITE FILE_PATH="coverage/verifier_sw_auto_init_new$auto_init.coverage" NAME="auto_init Coverage Results" MODIFIED="1566382765569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/verifier_sw_auto_init_new$create_schedule.coverage" NAME="create_schedule Coverage Results" MODIFIED="1584520336509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/operation/impl" />
-    <SUITE FILE_PATH="coverage/verifier_sw_auto_init_new$get_pos_info.coverage" NAME="get_pos_info Coverage Results" MODIFIED="1584547896315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/operation/impl" />
+    <SUITE FILE_PATH="coverage/verifier_sw_auto_init_new$get_pos_info.coverage" NAME="get_pos_info Coverage Results" MODIFIED="1584561534611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/operation/impl" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -44,74 +45,36 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/sw/auto_init.py">
+        <entry file="file://$PROJECT_DIR$/project/operation/impl/get_pos_info.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="83" column="42" selection-start-line="83" selection-start-column="42" selection-end-line="83" selection-end-column="42" />
+            <state relative-caret-position="268">
+              <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
               <folding>
-                <element signature="e#15#26#0" expanded="true" />
+                <element signature="e#15#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/sw/auto_init2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="52" lean-forward="true" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/operation/impl/send_pack_screenvision2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-195">
-              <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+            <state relative-caret-position="109">
+              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
               <folding>
-                <element signature="e#60#104#0" expanded="true" />
+                <element signature="e#15#58#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/output/pos_info.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/operation/impl/performance_datetime.py">
+        <entry file="file://$PROJECT_DIR$/project/sw/auto_init2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="164">
+              <caret line="131" column="22" selection-start-line="131" selection-start-column="22" selection-end-line="131" selection-end-column="22" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/operation/impl/get_pos_info.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="43" column="19" lean-forward="true" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
-              <folding>
-                <element signature="e#15#25#0" expanded="true" />
+                <element signature="e#15#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -158,8 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/device_cvs/test3.csv" />
-        <option value="$PROJECT_DIR$/project/operation/impl/init_advanced_spl.py" />
         <option value="$PROJECT_DIR$/project/operation/impl/init_pos_setting.py" />
         <option value="$PROJECT_DIR$/device_cvs/test.csv" />
         <option value="$PROJECT_DIR$/device_cvs/Automation2.csv" />
@@ -200,19 +161,21 @@
         <option value="$PROJECT_DIR$/test-advis/Device_README.md" />
         <option value="$PROJECT_DIR$/device_cvs/Automation.csv" />
         <option value="$PROJECT_DIR$/project/operation/impl/pos_mapping.py" />
-        <option value="$PROJECT_DIR$/output/pos_info.txt" />
-        <option value="$PROJECT_DIR$/config.ini" />
         <option value="$PROJECT_DIR$/test-advis/project/operation/impl/get_pos_info.py" />
         <option value="$PROJECT_DIR$/project/operation/impl/create_schedule.py" />
-        <option value="$PROJECT_DIR$/project/operation/impl/get_pos_info.py" />
-        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/pack.log" />
+        <option value="$PROJECT_DIR$/project/operation/impl/schedule_validate.py" />
+        <option value="$PROJECT_DIR$/output/pos_info.txt" />
         <option value="$PROJECT_DIR$/project/operation/impl/performance_datetime.py" />
-        <option value="$PROJECT_DIR$/project/sw/auto_init2.py" />
         <option value="$PROJECT_DIR$/project/sw/auto_init.py" />
+        <option value="$PROJECT_DIR$/project/sw/auto_init2.py" />
+        <option value="$PROJECT_DIR$/project/operation/impl/get_pos_info.py" />
+        <option value="$PROJECT_DIR$/config.ini" />
+        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds">
     <option name="x" value="63" />
     <option name="y" value="84" />
     <option name="width" value="1662" />
@@ -231,35 +194,6 @@
               <item name="verifier-sw_auto_init_new" type="b2602c69:ProjectViewProjectNode" />
               <item name="verifier-sw_auto_init_new" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="verifier-sw_auto_init_new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="verifier-sw_auto_init_new" type="462c0819:PsiDirectoryNode" />
-              <item name="output" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="verifier-sw_auto_init_new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="verifier-sw_auto_init_new" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="verifier-sw_auto_init_new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="verifier-sw_auto_init_new" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="operation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="verifier-sw_auto_init_new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="verifier-sw_auto_init_new" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="operation" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="verifier-sw_auto_init_new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="verifier-sw_auto_init_new" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="sw" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -270,7 +204,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -304,28 +238,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/operation/impl/create_schedule.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="delete_pack2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="sw_auto_init" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="E:\python3.7\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/operation/impl" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/operation/impl/delete_pack2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -400,6 +312,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="schedule_validate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sw_auto_init" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\python3.7\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/operation/impl" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/operation/impl/schedule_validate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="send_pack_screenvision1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sw_auto_init" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -424,19 +358,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.delete_pack2" />
       <item itemvalue="Python.performance_datetime" />
       <item itemvalue="Python.send_pack_screenvision1" />
       <item itemvalue="Python.get_pos_info" />
       <item itemvalue="Python.create_schedule" />
+      <item itemvalue="Python.schedule_validate" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.performance_datetime" />
+        <item itemvalue="Python.schedule_validate" />
         <item itemvalue="Python.get_pos_info" />
         <item itemvalue="Python.create_schedule" />
         <item itemvalue="Python.send_pack_screenvision1" />
-        <item itemvalue="Python.delete_pack2" />
       </list>
     </recent_temporary>
   </component>
@@ -521,12 +455,16 @@
       <workItem from="1584481872640" duration="404000" />
       <workItem from="1584483052523" duration="1835000" />
       <workItem from="1584519302712" duration="1794000" />
-      <workItem from="1584538377587" duration="7245000" />
+      <workItem from="1584538377587" duration="7357000" />
+      <workItem from="1584549984044" duration="10138000" />
+      <workItem from="1584561152839" duration="11290000" />
+      <workItem from="1584614025320" duration="918000" />
+      <workItem from="1584624523685" duration="12306000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197275000" />
+    <option name="totallyTimeSpent" value="232039000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -538,16 +476,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
+    <frame x="42" y="56" width="1108" height="606" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24090542" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30285713" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4995958" visible="true" weight="0.39253998" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4866785" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4995958" weight="0.3250444" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44049734" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
@@ -555,7 +492,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3285968" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004042" side_tool="true" weight="0.36056837" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.34574467" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.4092827" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -593,121 +530,60 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>templating_issues</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>'pack_uuid' in templating_issues</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>v.get('templating_issues')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>v</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>k</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>json_obj['data']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>json_obj['data'].get('templating_issues')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>json_obj</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>json_obj.get('templating_issues')</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/operation/impl/init_placeholder.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/operation/impl/get_placeholder_uuid.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" selection-start-line="26" selection-end-line="30" selection-end-column="40" />
-          <folding>
-            <element signature="e#15#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/operation/impl/create_placeholder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#15#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/operation/impl/create_device_uuid.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/operation/impl/init_pos_setting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_cvs/Automation2.csv" />
-    <entry file="file://E:/python3.7/Lib/site-packages/PyInstaller/building/build_main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="240" selection-start-line="240" selection-end-line="240" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_init/init_device_batch_multi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1463">
-          <caret line="84" column="104" selection-start-line="84" selection-start-column="104" selection-end-line="84" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/operation/impl/pack_uuid.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/operation/impl/create_playlist_uuid.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding>
-            <element signature="e#15#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/operation/impl/delete_pack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="e#15#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/output/pack_uuid.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/operation/impl/delete_pack2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project/operation/impl/send_pack_ncm2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="931">
           <caret line="64" column="50" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/operation/impl/send_pack_ncm1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="47" column="65" selection-start-line="47" selection-start-column="65" selection-end-line="47" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/operation/impl/send_pack_screenvision1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1083">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -803,25 +679,12 @@
     <entry file="file://$PROJECT_DIR$/main.spec">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/operation/impl/write_data.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pack_uuid.txt" />
     <entry file="file://$PROJECT_DIR$/write_data.txt" />
     <entry file="file://$PROJECT_DIR$/project/utils/config_reader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/operation/impl/creat_playlist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-704">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding>
-            <element signature="e#15#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -842,13 +705,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/operation/impl/create_schedule.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/project/operation/impl/create_schedule.py" />
     <entry file="file://$PROJECT_DIR$/device_cvs/Automation.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -859,45 +716,99 @@
     <entry file="file://$PROJECT_DIR$/root.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.ini">
+    <entry file="file://$PROJECT_DIR$/project/operation/impl/delete_pack2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/operation/impl/get_pos_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="43" column="19" lean-forward="true" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
-          <folding>
-            <element signature="e#15#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-195">
-          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-          <folding>
-            <element signature="e#60#104#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/operation/impl/performance_datetime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output/pos_info.txt">
+    <entry file="file://$PROJECT_DIR$/project/operation/impl/send_pack_ncm1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/operation/impl/delete_pack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="15" lean-forward="true" selection-end-line="37" />
+          <folding>
+            <element signature="e#15#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/operation/impl/create_device_uuid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-309" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/operation/impl/create_playlist_uuid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="87" selection-start-line="87" selection-end-line="90" selection-end-column="35" />
+          <folding>
+            <element signature="e#15#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/operation/impl/get_lms_uuid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/python3.7/Lib/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="1933" column="4" selection-start-line="1933" selection-start-column="4" selection-end-line="1933" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.log" />
+    <entry file="file://$PROJECT_DIR$/project/operation/impl/pack_uuid.txt" />
+    <entry file="file://$PROJECT_DIR$/project/operation/impl/write_data.txt" />
+    <entry file="file://$PROJECT_DIR$/project/operation/impl/schedule_sync.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/operation/impl/schedule_validate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/operation/impl/query_pack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1584" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/pos_info.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/operation/impl/creat_playlist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding>
+            <element signature="e#15#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project/operation/impl/send_pack_screenvision2.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -909,20 +820,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/project/operation/impl/send_pack_screenvision1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1060">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/operation/impl/performance_datetime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project/sw/auto_init.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="83" column="42" selection-start-line="83" selection-start-column="42" selection-end-line="83" selection-end-column="42" />
+        <state relative-caret-position="-108">
+          <caret line="140" column="91" selection-start-line="140" selection-start-column="91" selection-end-line="140" selection-end-column="91" />
           <folding>
             <element signature="e#15#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pack.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1548">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/operation/impl/get_pos_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+          <folding>
+            <element signature="e#15#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project/sw/auto_init2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="52" lean-forward="true" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+        <state relative-caret-position="164">
+          <caret line="131" column="22" selection-start-line="131" selection-start-column="22" selection-end-line="131" selection-end-column="22" />
+          <folding>
+            <element signature="e#15#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <element signature="e#15#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

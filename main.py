@@ -1,16 +1,23 @@
 # coding=utf-8
-#from project.sw.auto_init import InitRunner
-from project.sw.auto_init2 import InitRunner
+from project.sw.auto_init import InitRunner
+#from project.sw.auto_init2 import InitRunner
 import time
 import os
+import logging
 def main():
-
-    time.sleep(1)
-    print('screenwriter初始化设备')
+    logging.basicConfig(format='%(asctime)s - %(filename)s[line:%(lineno)d] - %(levelname)s: %(message)s',
+                        level=logging.INFO,
+                        filename='pack.log',
+                        filemode='a')
+    logging.info('Screenwriter初始化设备')
+    print ('Screenwriter初始化设备')
     InitRunner().multi_run('/device_cvs/Automation.csv')
     print("Advis自动化操作:\n")
+    logging.info("Advis自动化操作:\n")
     #下发pack、删除pack校验排期
     InitRunner().single_run()
+    print('日志已输出到pack.log文件')
+    input('输入任意键退出...')
     #删除pack校验排期
     #InitRunner2().single_run2()
     # InitRunner().multi_run('/device_cvs/Automation.csv')

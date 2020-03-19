@@ -2,6 +2,7 @@
 import root
 import os
 import time
+import logging
 from project.database import sw_db
 from device_init.init_device_batch_multi import InitDeviceBatchMulti
 from project.operation.impl.init_advanced_spl import InitAdvancedSpl
@@ -44,16 +45,15 @@ class InitRunner(object):
         Login(server_url, username, password).execute()
         #生成LMS的uuid到一个txt文件上
         GetLmsUuid(server_url).execute()
-        # 配置->通用->Advanced->pos_spl_mapping_enabled 开关
-        # InitAdvancedSpl(server_url).execute()
-        # 配置->通用->POS设置
+        #配置->通用->Advanced->pos_spl_mapping_enabled 开关
+        InitAdvancedSpl(server_url).execute()
+        #配置->通用->POS设置
         InitPOSSetting(server_url).execute()
-        # 配置->影院设备
+        #配置->影院设备
         InitPOSSystem(server_url).execute()
         #查询POS信息
         query_pos()
-        # 下发pack(screevision样本、ncm样本)
-        #pack_screenvision()
+        #下发pack(screevision样本、ncm样本)
         pack_screenvision()
         #创建、查询占位符
         Create_Placeholder(server_url).execute()
@@ -79,47 +79,139 @@ class InitRunner(object):
         feature_title = datalist3[0][:36]
         feature_title1 = feature_title.replace('\n', '')
 
+        #统计测试结果变量
+        send_pack = True
+        delete_pack = True
+        alter_pack = True
+        alter_delete= True
+
         #排期同步
         ScheduleSync(server_url).execute()
-        print ("下发pack且排期同步后，期望结果：\n"+ screen1 + "号厅" + feature_title1 +'影片在'+ start1 + "场次应添加对应占位符匹配的内容包CPL")
+        print ("下发Pack且排期同步后，期望结果：\n"+ screen1 + "号厅" + feature_title1 +'影片在'+ start1 + "场次应添加对应占位符匹配的内容包CPL")
+        logging.info("下发Pack且排期同步后，期望结果：\n %s号厅 %s影片在 %s场次应添加对应占位符匹配的内容包CPL" % (screen1,feature_title1,start1))
         time.sleep(30)
         print ("排期同步完成校验排期，实际结果：")
-        performance()
+        logging.info("排期同步完成校验排期，实际结果：")
+        res = performance()
+        print(res)
+        logging.info(res)
+        if '已添加' in res:
+            print('测试结果：通过\n')
+            logging.info('测试结果：通过\n')
+        else:
+            print('测试结果：不通过！！！\n')
+            send_pack = False
+            logging.info('测试结果：不通过！！！\n')
 
-        time.sleep(30)
+
+        time.sleep(20)
         #查询pack、删除pack
-        # query_pack()
-        # delete_pack()
+        #query_pack()
+        #delete_pack()
         delete_pack2()
         # 排期同步
         ScheduleSync(server_url).execute()
-        print ("删除pack且排期同步后，期望结果：\n" + screen1 + "号厅" + feature_title1 + '影片在' + start1 + "场次找不到对应占位符匹配的内容包")
-        time.sleep(30)
+        print ("删除Pack且排期同步后，期望结果：\n" + screen1 + "号厅" + feature_title1 + '影片在' + start1 + "场次找不到对应占位符匹配的内容包（保护场次不受Pack删除影响）")
+        logging.info("删除Pack且排期同步后，期望结果：\n %s号厅 %s影片在 %s场次找不到对应占位符匹配的内容包（保护场次不受Pack删除影响）" % (screen1,feature_title1,start1))
+        #time.sleep(30)
         print ("排期同步完成校验排期，实际结果：")
-        performance()
-        time.sleep(30)
+        logging.info ("排期同步完成校验排期，实际结果：")
+        res = performance()
+        print(res)
+        logging.info(res)
+        if '未找到' in res:
+            print('测试结果：通过\n')
+            logging.info('测试结果：通过\n')
+        elif '保护场次' in res:
+            print('测试结果：通过\n')
+            logging.info('测试结果：通过\n')
+        else:
+            print('测试结果：不通过！！！\n')
+            delete_pack = False
+            logging.info('测试结果：不通过！！！\n')
+        time.sleep(20)
 
-        # 下发pack(screevision样本、ncm样本)
-        #pack_screenvision()
+        #下发pack(screevision样本、ncm样本)
         pack_screenvision2()
         # 排期同步
         ScheduleSync(server_url).execute()
-        print ("修改pack且排期同步后，期望结果：\n" + screen1 + "号厅" + feature_title1 + '影片在' + start1 + "场次应添加对应占位符匹配的内容包CPL")
+        print ("修改Pack且排期同步后，期望结果：\n" + screen1 + "号厅" + feature_title1 + '影片在' + start1 + "场次应添加对应占位符匹配的内容包CPL（保护场次不受Pack修改影响）")
+        logging.info("修改Pack且排期同步后，期望结果：\n %s号厅 %s影片在 %s场次应添加对应占位符匹配的内容包CPL（保护场次不受Pack修改影响）" % (screen1,feature_title1,start1))
         time.sleep(30)
         print ("排期同步完成校验排期，实际结果：")
-        performance()
+        logging.info ("排期同步完成校验排期，实际结果：")
+        res = performance()
+        print(res)
+        logging.info(res)
+        if '已添加' in res:
+            print('测试结果：通过\n')
+            logging.info('测试结果：通过\n')
+        else:
+            print('测试结果：不通过！！！\n')
+            alter_pack = False
+            logging.info('测试结果：不通过！！！\n')
 
-        time.sleep(30)
+        time.sleep(20)
         # 查询pack、删除pack
         # query_pack()
         # delete_pack()
         delete_pack2()
         # 排期同步
         ScheduleSync(server_url).execute()
-        print ("删除pack且排期同步后，期望结果：\n" + screen1 + "号厅" + feature_title1 + '影片在' + start1 + "场次找不到对应占位符匹配的内容包")
+        print ("删除Pack且排期同步后，期望结果：\n" + screen1 + "号厅" + feature_title1 + '影片在' + start1 + "场次找不到对应占位符匹配的内容包（保护场次不受Pack删除影响）")
+        logging.info ("删除Pack且排期同步后，期望结果：\n" + screen1 + "号厅" + feature_title1 + '影片在' + start1 + "场次找不到对应占位符匹配的内容包（保护场次不受Pack删除影响）")
         time.sleep(30)
         print ("排期同步完成校验排期，实际结果：")
-        performance()
+        logging.info("排期同步完成校验排期，实际结果：")
+        res = performance()
+        print(res)
+        logging.info(res)
+        if '未找到' in res:
+            print('测试结果：通过\n')
+            logging.info('测试结果：通过\n')
+        elif '保护场次' in res:
+            print('测试结果：通过\n')
+            logging.info('测试结果：通过\n')
+        else:
+            print('测试结果：不通过！！！\n')
+            alter_delete = False
+            logging.info('测试结果：不通过！！！\n')
+
+        print('Advis测试结果统计：')
+        logging.info('Advis测试结果统计：')
+        if send_pack:
+            print('Pack下发测试结果: %s' %  '通过' )
+            logging.info('Pack下发测试结果: %s' % '通过')
+        else:
+            print('Pack下发测试结果: %s' % '不通过')
+            logging.info(('Pack下发测试结果: %s' % '不通过'))
+
+        if delete_pack:
+            print('Pack删除测试结果: %s' %  '通过' )
+            logging.info('Pack删除测试结果: %s' % '通过')
+        else:
+            print('Pack删除结果: %s' % '不通过')
+            logging.info(('Pack删除测试结果: %s' % '不通过'))
+
+        if alter_pack:
+            print('Pack修改测试结果: %s' %  '通过' )
+            logging.info('Pack修改测试结果: %s' % '通过')
+        else:
+            print('Pack修改测试结果: %s' % '不通过')
+            logging.info(('Pack修改测试结果: %s' % '不通过'))
+
+        if alter_delete:
+            print('Pack删除测试结果: %s' %  '通过' )
+            logging.info('Pack删除测试结果: %s' % '通过')
+        else:
+            print('Pack删除测试结果: %s' % '不通过')
+            logging.info(('Pack删除测试结果: %s' % '不通过'))
+
+        print('\n')
+
+        # logging.info(('Pack下发测试结果: %s' %  '通过' if send_pack else '不通过！！！'))
+        # print('Pack删除测试结果: %s' % '通过' if delete_pack else '不通过！！！')
+
 
 if __name__ == '__main__':
     init = InitRunner()

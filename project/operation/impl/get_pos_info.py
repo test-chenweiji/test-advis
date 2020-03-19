@@ -17,7 +17,7 @@ cursor = connent.cursor()
 
 def query_pos():
     time1 = str(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time())))
-    cursor.execute("SELECT uuid,screen_identifier,source_start,feature_id,feature_title FROM pos where source_start > '%s'" % time1)
+    cursor.execute("SELECT pos.uuid,pos.screen_identifier,pos.source_start,pos.feature_id,pos.feature_title,external_device_map.device_uuid FROM pos JOIN external_device_map ON pos.screen_identifier=external_device_map.external_id WHERE source_start> '%s'" % time1)
     result = cursor.fetchone()
     if result:
         pos_uuid = result[0]
@@ -31,6 +31,7 @@ def query_pos():
         start = start.replace(' ', 'T')
         feature_id = result[3]
         feature_title = result[4]
+        device_uuid = result[5]
 
         with open(root.get_root_path() + '/output/pos_info.txt', 'w') as f:
             f.write(pos_uuid + '\n')
@@ -38,9 +39,11 @@ def query_pos():
             f.write(start + '\n')
             f.write(feature_id + '\n')
             f.write(feature_title + '\n')
+            f.write(device_uuid + '\n')
 
     else:
         print ('数据库查询POS数据为空或POS数据已过期，请添加POS后再运行')
+        input('输入任意键退出...')
         sys.exit(0)
 
 
