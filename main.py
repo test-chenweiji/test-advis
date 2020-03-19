@@ -1,6 +1,6 @@
 # coding=utf-8
-from project.sw.auto_init import InitRunner
-#from project.sw.auto_init2 import InitRunner
+#from project.sw.auto_init import InitRunner
+from project.sw.auto_init2 import InitRunner
 import time
 import os
 import logging

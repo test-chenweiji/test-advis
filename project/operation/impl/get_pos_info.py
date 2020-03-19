@@ -5,6 +5,7 @@ import uuid
 import psycopg2
 import time
 import root
+import datetime
 from project.utils.config_reader import ConfigReader
 
 ConfigReader.read_config()
@@ -17,7 +18,11 @@ cursor = connent.cursor()
 
 def query_pos():
     time1 = str(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time())))
-    cursor.execute("SELECT pos.uuid,pos.screen_identifier,pos.source_start,pos.feature_id,pos.feature_title,external_device_map.device_uuid FROM pos JOIN external_device_map ON pos.screen_identifier=external_device_map.external_id WHERE source_start> '%s'" % time1)
+    source_start = datetime.datetime.strptime(time1, "%Y-%m-%d %H:%M:%S")
+    source_start2 = source_start + datetime.timedelta(days = 14)
+    time2 = datetime.datetime.strftime(source_start2, "%Y-%m-%d %H:%M:%S")
+
+    cursor.execute("SELECT pos.uuid,pos.screen_identifier,pos.source_start,pos.feature_id,pos.feature_title,external_device_map.device_uuid FROM pos JOIN external_device_map ON pos.screen_identifier=external_device_map.external_id WHERE source_start > '%s' AND source_start < '%s' " % (time1,time2))
     result = cursor.fetchone()
     if result:
         pos_uuid = result[0]
